@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.clubdelcaos.test_envioimage.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/milayout"
+        android:padding="20dp"
+        android:background="#dfdfdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Nombres:"
+                android:layout_width="0dp" />
+
+            <EditText
+                android:id="@+id/nombres"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="PepitoPrueba"
+                android:textSize="13sp"
+                android:layout_width="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Apellido 1" />
+
+            <EditText
+                android:id="@+id/apellido1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ApellidoPep"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Apellido 2" />
+
+            <EditText
+                android:id="@+id/apellido2"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ApellidoPep2"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Telefono" />
+
+            <EditText
+                android:id="@+id/telefono"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="999978788"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="joel.cauti@ffsd.com"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Password" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="123456"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Alias" />
+
+            <EditText
+                android:id="@+id/alias"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Aliasyt"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Fecha Nac." />
+
+            <EditText
+                android:id="@+id/fecha"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1988-12-23"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Id Pregunta" />
+
+            <EditText
+                android:id="@+id/pregunta"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="1"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Respuesta" />
+
+            <EditText
+                android:id="@+id/respuesta"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="nose"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Ruc" />
+
+            <EditText
+                android:id="@+id/ruc"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="20154545788"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Dni" />
+
+            <EditText
+                android:id="@+id/dni"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="78784848"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:text="Fotografia" />
+
+            <ImageButton
+                android:id="@+id/fotografia"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_weight="2"
+                android:background="#ffffff"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
